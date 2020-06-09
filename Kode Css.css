@@ -1,0 +1,47 @@
+/*Editorial team*/
+.editorial-list{
+    position: relative; 
+}
+.editorial-list li{
+    margin-bottom: 1.125rem;
+}
+.editorial-list .img-profile{
+    position: absolute;
+    width: 95px;
+    height: 105px;
+    border: 1px solid #ddd;
+    padding: .5rem;
+}
+.editorial-list .img-profile .imgthumb{ 
+    width: 80px;
+    height: 90px;
+    overflow: hidden;
+    margin: 0 auto; 
+    object-fit: fill;
+}
+.editorial-list .img-profile img{
+    width: 100%;
+    height:100%;
+}
+.team-content{
+    margin-left: 100px;
+    min-height: 130px;
+}
+.team-content .ico-label{
+    width: 18px;
+    height: 18px;
+    margin-right: .5rem;
+}   
+.team-aff ul li{
+    margin-bottom: 0;
+}
+.team-aff ul li .tm_label{
+    display: inline-block;
+    width: 80px;
+}
+ 
+.team-aff ul li .ico-label{
+    width: 18px;
+    height: 18px;
+    margin-right: .5rem;
+}
